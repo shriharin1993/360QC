@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QC App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/coach_layout.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/login.css"> -->
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+    <script src="https://use.fontawesome.com/99347ac47f.js"></script>
+    <!-- Font Icons CSS-->
+    <link rel="stylesheet" href="https://file.myfontastic.com/da58YPMQ7U5HY8Rb6UxkNf/icons.css">
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/> -->
+    <style type="text/css">
+      .search {
+        color: #9b0c0c;
+        line-height: 1.2;
+        display: block;
+        width: 100%;
+        height: 29px;
+        background: transparent;
+        padding: 0px 7px 0 0px;
+        border: none;
+        border-bottom: 2px solid #0f0f0f;
+        font-weight: bold;
+      }
+      .front_img {
+        border-radius: 3px;
+        width: 100%;
+        height: 93% !important;
+      }
+      .top-left {
+          position: absolute;
+          top: 305px !important;
+          left: 167px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .defect_left {
+          position: absolute;
+          top: 473px !important;
+          left: 133px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .check_left {
+          position: absolute;
+          top: 293px !important;
+          left: 134px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .top-left_ds {
+          position: absolute;
+          top: 172px !important;
+          left: 232px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .check_left_door {
+          position: absolute;
+          top: 169px !important;
+          left: 192px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .defect_left_door {
+          position: absolute;
+          top: 355px !important;
+          left: 191px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .top-left_ds_pst {
+          position: absolute;
+          top: 304px !important;
+          left: 392px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .check_left_pst {
+          position: absolute;
+          top: 294px !important;
+          left: 358px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .defect_left_pst {
+          position: absolute;
+          top: 474px !important;
+          left: 357px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .check_left_dst1 {
+          position: absolute;
+          top: 0px !important;
+          left: 23px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .defect_left_dst1 {
+          position: absolute;
+          top: 473px !important;
+          left: 25px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .check_left_d1 {
+          position: absolute;
+          top: 0px !important;
+          left: 23px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      .defect_left_d1 {
+          position: absolute;
+          top: 474px !important;
+          left: 25px !important;
+          color: white;
+          font-weight: bold;
+          font-size: 25px;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) 
+        and (orientation : portrait) {
+          .defect_left_dst1 {
+              position: absolute;
+              top: 253px !important;
+              left: 25px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_d1 {
+              position: absolute;
+              top: 253px !important;
+              left: 25px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .top-left {
+              position: absolute;
+              top: 157px !important;
+              left: 88px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left {
+              position: absolute;
+              top: 155px !important;
+              left: 72px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left {
+            position: absolute;
+            top: 250px !important;
+            left: 77px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          .check_left_door {
+            position: absolute;
+            top: 89px !important;
+            left: 106px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .top-left_ds {
+            position: absolute;
+            top: 95px !important;
+            left: 130px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .defect_left_door {
+            position: absolute;
+            top: 186px !important;
+            left: 108px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .top-left_ds_pst {
+            position: absolute;
+            top: 161px !important;
+            left: 208px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .check_left_pst {
+            position: absolute;
+            top: 158px !important;
+            left: 191px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .defect_left_pst {
+            position: absolute;
+            top: 252px !important;
+            left: 196px! important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+      }
+
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+        and (orientation : landscape) {
+          .defect_left_d1 {
+              position: absolute;
+              top: 358px !important;
+              left: 25px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_dst1 {
+              position: absolute;
+              top: 358px !important;
+              left: 25px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .top-left {
+              position: absolute;
+              top: 228px !important;
+              left: 128px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left {
+            position: absolute;
+            top: 226px !important;
+            left: 102px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          .defect_left {
+            position: absolute;
+            top: 361px !important;
+            left: 104px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          .check_left_door {
+            position: absolute;
+            top: 129px !important;
+            left: 148px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          .top-left_ds {
+            position: absolute;
+            top: 131px !important;
+            left: 179px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .defect_left_door {
+            position: absolute;
+            top: 267px !important;
+            left: 150px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .check_left_pst {
+            position: absolute;
+            top: 226px !important;
+            left: 279px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .defect_left_pst {
+            position: absolute;
+            top: 360px !important;
+            left: 279px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .top-left_ds_pst {
+            position: absolute;
+            top: 229px !important;
+            left: 299px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page home-page" style="position: inherit;">
+      <header class="header">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+              <!-- Navbar Header-->
+              <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                  <div class="row">
+                   <div class="col-md-6">
+                     <img src="img/user.png" alt="Logo" class="img">
+                     <h4 style="margin-top: -43px;margin-left: 39px;">Kevin Peterson <br/>
+                     <small>&nbsp;</small></h4>
+                   </div>
+                 </div>     
+                </a>
+              </div>
+              <img src="img/DC_Horizontal-Logo.png" class="img1" alt="DC Logo" />
+              <!-- Navbar Menu -->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+               <div class="pull-right">
+                <ul class="nav pull-right">
+                  <!-- <li><img src="img/Settings.png" alt="settings" width="30px"/></li>&nbsp;&nbsp;&nbsp; -->
+                  <!-- <li><i class="fa fa-bell" style="color:#fff;font-size: 30px;"></i></li> -->
+                   <a href="login.html"><li><img src="img/Logout.png" alt="logout" width="30px"/></i></li></a>
+                    </li>
+                </ul>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content d-flex align-items-stretch">
+        <nav class="side-navbar">
+          <ul class="list-unstyled">
+            <li class="active"><a href="index.html"><img src="img/Home_1.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Home</a></li>
+            <!-- <li class="active"><a href="quick_qc.html">
+            <img src="img/Quick-QC.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Quick QC</a></li>
+            <li><a href="#"><img src="img/Detailed-360.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Detailed QC</a></li> -->
+            <li><a href="#"><img src="img/Reports.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Reports</a></li>
+            <li><a href="#"><img src="img/History.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;History</a></li>
+            <li><a href="#"><img src="img/Admin.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Admin</a></li>
+          </ul>
+        </nav>
+        <div class="content-inner">
+          <header class="page-header">
+            <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-6">
+              <ol class="breadcrumb">
+                <a id="toggle-btn" href="#" class="fa-lg">
+              <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 30px;color: white;"></i>
+              <span></span><span></span><span></span>
+            </a>
+                <li><a href="index.html" class="anchor"><img src="img/Home_1.png" alt="home" width="20px" class="icon_align">&nbsp;&nbsp;Home</a></li>
+                <li><a href="#"class="anchor">Quick QC</a></li>
+                <li><a href="quick_qc.html"class="anchor">Black Pearl</a></li>  
+                <li><a href="coach_layout.html"class="anchor">Coach Layout</a>
+                </li>
+                <li><a href="#"class="anchor">Add Trailer</a></li>     
+              </ol>
+              </div>
+            <!--   <div class="col-md-6">
+                <input type="text" placeholder="Search" class="pull-right search" name="search">
+                <i class="fa fa-search searchIcon"></i>
+              </div> -->
+              </div>
+            </div>
+          </header>
+          <section class="dashboard-counts no-padding-bottom">
+            <div class="container-fluid">
+              <div class="card"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h2 style="color: #9b0c0c;">Add Trailer</h2>
+                    </div>
+                    <!-- <div class="col-md-6">
+                    <div class="pull-right">
+                    <h2 style="color: #9b0c0c;">18-01-2019 09:00 AM</h2>
+                    </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" style="background-color: #e3e3e3;">
+                <div class="row">
+                  <div class="col-md-4">
+                  <label class="control-label" for="trailer_no" 
+                  style="color: #9b0c0c;">Trailer No</label>
+                  <input type="text" class="form-control search" id="trailer_no" name="trailer_no">
+                  </div>
+                </div>
+              <!--Div 1 -->
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/Bus-09.jpg" alt="Bus-Front-Trailer" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left">
+                    DST1
+                    </div>
+                  </a>
+                  <div class="check_left_dst1">
+                    <a href="#" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left_dst1">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                  <div class="check_left">
+                    <a href="#" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                  <div class="note bus_front"><p>Click on the grids to see the details</p></div>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/Bus-08.jpg" alt="Driver-Side" width="100%" class="front_img" />
+
+                  <a href="#" class="anchor">
+                    <div class="top-left_ds">
+                    D1
+                    </div>
+                  </a>
+                  <div class="check_left_d1">
+                    <a href="#" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left_d1">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <div class="check_left_door">
+                    <a href="#" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left_door">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+
+                  <a href="#" class="anchor">
+                    <div class="top-left_ds_pst">
+                    PST1
+                    </div>
+                  </a>
+                  <div class="check_left_pst">
+                    <a href="#" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left_pst">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <div class="note"><p>Click on the grids to see the details</p></div>
+                </div>
+              </div>
+              <!--Div 1 -->
+
+              <!--Div 2 -->
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="img/Bus-10.jpg" alt="Bus-Front" width="100%" height="93%" class="front_img" />
+                </div>
+              <!--Div 2 -->
+              </div>
+              </div>
+              </div>
+            </div>
+         </section>
+  </div>
+</div>
+
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>

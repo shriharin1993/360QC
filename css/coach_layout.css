@@ -1,0 +1,3140 @@
+      .img {
+        width: 50px;
+        border-radius: 50px;
+        margin-left: -21px;
+        border: 2px solid;
+      }
+      .img1 {
+        width: 20%;
+        margin-left: -21px;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+        /* Top left text */
+        .top-left {
+          position: absolute;
+          top: 47px;
+          left: 26px;
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .top-left1 {
+          position: absolute;
+          top: 42px;
+          left: 319px;
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .top-left_ds {
+          position: absolute;
+          top: 41px;
+          left: 102px;
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .top-left_rf {
+          position: absolute;
+          top: 32px;
+          left: 137px;
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+        .top-left2 {
+          position: absolute;
+          top: 66px;
+          left: 434px;
+          color: black;
+          font-weight: bold;
+          font-size: 25px;
+        }
+
+        /* Top right text */
+        .top-right {
+          position: absolute;
+          top: 47px;
+          right: 26px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .top-right1 {
+          position: absolute;
+          top: 41px;
+          right: 350px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .top-right_ds {
+          position: absolute;
+          top: 38px;
+          right: 134px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .top-right2 {
+          position: absolute;
+          top: 64px;
+          right: 447px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .top-right_rf {
+          position: absolute;
+          top: 64px;
+          right: 137px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        /* Bottom right text */
+        .bottom-right {
+          position: absolute;
+          bottom: 82px;
+          right: 26px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-right1 {
+          position: absolute;
+          bottom: 82px;
+          right: 300px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-right_ds {
+          position: absolute;
+          bottom: 82px;
+          right: 38px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-right2 {
+          position: absolute;
+          bottom: 82px;
+          right: 449px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-right3 {
+          position: absolute;
+          bottom: 82px;
+          right: 352px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-right_rf {
+          position: absolute;
+          bottom: 82px;
+          right: 138px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+          position: absolute;
+          bottom: 82px;
+          left: 26px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-left1 {
+          position: absolute;
+          bottom: 80px;
+          left: 285px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-left_ds {
+          position: absolute;
+          bottom: 82px;
+          left: 43px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-left_rf {
+          position: absolute;
+          bottom: 60px;
+          left: 135px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-left2 {
+          position: absolute;
+          bottom: 80px;
+          left: 432px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .bottom-left3 {
+          position: absolute;
+          bottom: 80px;
+          left: 345px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+        }
+      .anchor {
+        color: white !important;
+      }
+      .icon_align {
+        margin-top: -6px;
+      }
+      .front_img {
+        /*border: 3px solid #9b0c0c;*/
+        border-radius: 3px;
+        width: 100%; 
+        height: 270px;
+      }
+      .note {
+        width: 100%;
+        height: 30px;
+        margin-top: -30px;
+        text-align: center;
+        border: 3px solid #9b0c0c;
+        color: white;
+        background: #9b0c0c;
+        border-radius: 6px;
+      }
+      .note1 {
+        width: 100%;
+        height: 30px;
+        margin-top: -6px;
+        text-align: center;
+        border: 3px solid #9b0c0c;
+        color: white;
+        background: #9b0c0c;
+        border-radius: 6px;
+      }
+       .check_left {
+            position: absolute;
+            top: -5px;
+            left: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .times_left {
+            position: absolute;
+            top: -5px;
+            left: 125px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .defect_left {
+            position: absolute;
+            top: 96px;
+            left: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .check_right {
+            position: absolute;
+            top: -5px;
+            right: 94px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .times_right {
+            position: absolute;
+            top: -5px;
+            right: -7px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .defect_right {
+            position: absolute;
+            top: 96px;
+            right: 94px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .check_bottom {
+            position: absolute;
+            bottom: 130px;
+            left: 19px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .times_bottom {
+            position: absolute;
+            bottom: 130px;
+            left: 127px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .defect_bottom {
+            position: absolute;
+            bottom: 25px;
+            left: 19px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .check_bright {
+            position: absolute;
+            bottom: 130px;
+            right: 94px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .times_bright {
+            position: absolute;
+            bottom: 130px;
+            right: -5px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .defect_bright {
+            position: absolute;
+            bottom: 25px;
+            right: 95px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .times_left1 {
+            position: absolute;
+            top: -5px;
+            left: 222px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .times_bottom1 {
+            position: absolute;
+            bottom: 150px;
+            left: 206px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        } 
+
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            left: 14%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+          }
+
+        .icon-bar a {
+          display: block;
+          text-align: center;
+          padding: 16px;
+          transition: all 0.3s ease;
+          color: white;
+          font-size: 20px;
+        }
+
+        .icon-bar a:hover {
+          background-color: #9B0C0C;
+        }
+
+        .back {
+          background: #9B0C0C;
+          color: white;
+        }
+
+        .plus {
+          background: #9B0C0C;
+          color: white;
+        }
+
+        .check {
+          background: #9B0C0C;
+          color: white;
+        }
+
+        .thumbs-up {
+          background: #9B0C0C;
+          color: white;
+        }
+
+        .thumbs-up {
+          background: #9B0C0C;
+          color: white;
+        }
+
+          .bottom-right_dt3 {
+              position: absolute;
+              bottom: 106px !important;
+              right: 71px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_left_dt3 {
+              position: absolute;
+              top: 130px;
+              left: 404px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .bottom-left_pt11 {
+              position: absolute;
+              bottom: 111px;
+              left: 72px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bottom_pt11 {
+              position: absolute;
+              bottom: 130px;
+              left: 120px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom_pt11 {
+              position: absolute;
+              bottom: 25px;
+              left: 120px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_left_dt3 {
+              position: absolute;
+              top: 234px;
+              left: 404px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .times_left {
+              position: absolute;
+              top: -5px;
+              left: 125px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left {
+              position: absolute;
+              top: 96px;
+              left: 20px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_right {
+              position: absolute;
+              top: -5px;
+              right: 31px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .times_right {
+              position: absolute;
+              top: -5px;
+              right: -7px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_right {
+              position: absolute;
+              top: 96px;
+              right: 31px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bottom {
+              position: absolute;
+              bottom: 130px;
+              left: 19px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .times_bottom {
+              position: absolute;
+              bottom: 130px;
+              left: 127px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom {
+              position: absolute;
+              bottom: 25px;
+              left: 19px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bright {
+              position: absolute;
+              bottom: 130px;
+              right: 33px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .times_bright {
+              position: absolute;
+              bottom: 130px;
+              right: -5px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bright {
+              position: absolute;
+              bottom: 25px;
+              right: 33px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .top-left {
+              position: absolute;
+              top: 43px;
+              left: 16px !important;
+              color: black;
+              font-weight: bold;
+              font-size: 30px;
+          }
+          .top-right {
+              position: absolute;
+              top: 43px;
+              right: 15px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-left {
+              position: absolute;
+              bottom: 67px;
+              left: 16px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-right {
+              position: absolute;
+              bottom: 67px;
+              right: 15px !important;
+              color: black;
+              font-size: 30px;
+              
+          }
+          .top-left_ds {
+              position: absolute;
+              top: 41px;
+              left: 60px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-right1 {
+              position: absolute;
+              top: 41px;
+              right: 172px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-left1 {
+              position: absolute;
+              top: 42px;
+              left: 169px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-right_ds {
+              position: absolute;
+              top: 27px !important;
+              right: 58px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-left_ds {
+              position: absolute;
+              bottom: 66px;
+              left: 18px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-left_dt1 {
+              position: absolute;
+              bottom: 115px;
+              left: 69px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .bottom-right3 {
+              position: absolute;
+              bottom: 64px;
+              right: 172px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-left1 {
+              position: absolute;
+              bottom: 64px;
+              left: 158px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .check_left_dt1 {
+              position: absolute;
+              top: 130px;
+              left: 64px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_dt1 {
+              position: absolute;
+              top: 234px;
+              left: 69px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_ds4 {
+              position: absolute;
+              top: 130px;
+              left: 117px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_ds4 {
+              position: absolute;
+              top: 234px;
+              left: 115px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_ds6 {
+              position: absolute;
+              top: 130px;
+              left: 263px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_ds6 {
+              position: absolute;
+              top: 234px;
+              left: 263px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_dt2 {
+                position: absolute;
+                top: 130px;
+                left: 361px !important;
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+          .defect_left_dt2 {
+              position: absolute;
+              top: 234px;
+              left: 361px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_ds8 {
+              position: absolute;
+              top: 130px;
+              left: 445px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_ds8 {
+              position: absolute;
+              top: 234px;
+              left: 445px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .bottom-left_pt1 {
+              position: absolute;
+              bottom: 111px;
+              left: 124px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .bottom-right_pt2 {
+              position: absolute;
+              bottom: 111px;
+              right: 67px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .bottom-right1 {
+              position: absolute;
+              bottom: 67px;
+              right: 158px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-left3 {
+              position: absolute;
+              bottom: 66px;
+              left: 185px !important;
+              color: black;
+              font-size: 30px; 
+              font-weight: bold;
+          }
+          .check_left_ps3 {
+              position: absolute;
+              top: -5px;
+              left: 164px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_ps3 {
+              position: absolute;
+              top: 96px;
+              left: 165px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_right_ps7 {
+              position: absolute;
+              top: -5px;
+              right: 206px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bright1 {
+              position: absolute;
+              bottom: 25px;
+              right: 206px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .top-left_rf {
+              position: absolute;
+              top: 32px;
+              left: 71px !important;
+              color: black;
+              font-weight: bold;
+              font-size: 30px;
+          }
+          .bottom-left_rf {
+              position: absolute;
+              bottom: 60px;
+              left: 71px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-right2 {
+              position: absolute;
+              top: 34px;
+              right: 400px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-right2 {
+              position: absolute;
+              bottom: 59px;
+              right: 402px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-left2 {
+              position: absolute;
+              top: 34px;
+              left: 395px !important;
+              color: black;
+              font-weight: bold;
+              font-size: 30px;
+          }
+          .bottom-left2 {
+              position: absolute;
+              bottom: 58px;
+              left: 393px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-right_rf {
+              position: absolute;
+              top: 34px;
+              right: 72px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .bottom-right_rf {
+              position: absolute;
+              bottom: 59px;
+              right: 74px !important;
+              color: black;
+              font-size: 30px;
+              font-weight: bold;
+          }
+          .top-left_rfs {
+              position: absolute;
+              top: 89px;
+              left: 84px !important;
+              color: black;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_rfs {
+              position: absolute;
+              top: 76px;
+              left: 67px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_rfs {
+              position: absolute;
+              top: 150px;
+              left: 69px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_left_rf3 {
+              position: absolute;
+              top: -5px;
+              left: 190px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_rf3 {
+              position: absolute;
+              top: 96px;
+              left: 190px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_right_rf7 {
+              position: absolute;
+              top: -5px;
+              right: 291px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_right_rf7 {
+              position: absolute;
+              top: 96px;
+              right: 291px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_left_rf5 {
+              position: absolute;
+              top: -5px;
+              left: 505px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_rf5 {
+              position: absolute;
+              top: 96px;
+              left: 505px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_bottom_rf4 {
+              position: absolute;
+              bottom: 130px;
+              left: 188px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom_rf4 {
+              position: absolute;
+              bottom: 22px;
+              left: 190px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bright_rf8 {
+              position: absolute;
+              bottom: 130px;
+              right: 292px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bright_rf8 {
+              position: absolute;
+              bottom: 25px;
+              right: 291px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bottom_rf6 {
+              position: absolute;
+              bottom: 130px;
+              left: 505px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom_rf6 {
+              position: absolute;
+              bottom: 22px;
+              left: 505px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_right_ps7 {
+              position: absolute;
+              top: 96px;
+              right: 206px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_left_ps5 {
+              position: absolute;
+              top: -5px;
+              left: 379px !important; 
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .defect_left_ps5 {
+              position: absolute;
+              top: 96px;
+              left: 379px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .check_bottom_pt1 {
+              position: absolute;
+              bottom: 130px;
+              left: 79px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom_pt1 {
+              position: absolute;
+              bottom: 25px;
+              left: 80px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bottom_ps4 {
+              position: absolute;
+              bottom: 130px;
+              left: 164px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .defect_bottom_ps4 {
+              position: absolute;
+              bottom: 25px;
+              left: 164px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .check_bright1 {
+              position: absolute;
+              bottom: 130px;
+              right: 206px !important;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+          .bottom-right_ds {
+                position: absolute;
+                bottom: 69px;
+                right: 22px !important;
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+            }
+          .times_left1 {
+              position: absolute;
+              top: -5px;
+              left: 222px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+          .times_bottom1 {
+              position: absolute;
+              bottom: 150px;
+              left: 206px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          } 
+
+          .bottom-left_dt1 {
+            position: absolute;
+            bottom: 108px !important;
+            left: 128px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+         }
+
+         .bottom-right_dt2 {
+            position: absolute;
+            bottom: 106px !important;
+            right: 115px !important;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+         }
+
+         .check_left_ds3 {
+              position: absolute;
+              top: -5px;
+              left: 263px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds3 {
+            position: absolute;
+            top: -5px;
+            left: 435px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .defect_left_ds3 {
+            position: absolute;
+            top: 96px;
+            left: 264px !important;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .check_left_ds5 {
+              position: absolute;
+              top: -5px;
+              left: 150px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds5 {
+              position: absolute;
+              top: -5px;
+              left: 610px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds5 {
+              position: absolute;
+              top: 96px;
+              left: 150px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds7 {
+              position: absolute;
+              top: -5px;
+              left: 360px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds7 {
+              position: absolute;
+              top: -5px;
+              left: 873px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds7 {
+              position: absolute;
+              top: 96px;
+              left: 360px !important;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds2 {
+              position: absolute;
+              top: 130px;
+              left: 20px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds2 {
+              position: absolute;
+              top: 234px;
+              left: 20px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+        }
+          .bottom-left_dt1 {
+            position: absolute;
+            bottom: 107px;
+            left: 128px;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+         }
+
+         .bottom-right_dt2 {
+            position: absolute;
+            bottom: 107px;
+            right: 215px;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+         }
+
+         .bottom-right_dt3 {
+            position: absolute;
+            bottom: 107px;
+            right: 134px;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_left_dt3 {
+            position: absolute;
+            top: 130px;
+            left: 716px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .defect_left_dt3 {
+              position: absolute;
+              top: 234px;
+              left: 717px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+         .check_left_ds3 {
+              position: absolute;
+              top: -5px;
+              left: 257px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds3 {
+            position: absolute;
+            top: -5px;
+            left: 435px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .defect_left_ds3 {
+            position: absolute;
+            top: 96px;
+            left: 254px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .check_left_ds5 {
+              position: absolute;
+              top: -5px;
+              left: 469px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds5 {
+              position: absolute;
+              top: -5px;
+              left: 610px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds5 {
+              position: absolute;
+              top: 96px;
+              left: 466px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds7 {
+              position: absolute;
+              top: -5px;
+              left: 644px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .times_left_ds7 {
+              position: absolute;
+              top: -5px;
+              left: 873px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds7 {
+              position: absolute;
+              top: 96px;
+              left: 642px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds2 {
+              position: absolute;
+              top: 130px;
+              left: 20px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds2 {
+              position: absolute;
+              top: 234px;
+              left: 20px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_dt1 {
+              position: absolute;
+              top: 130px;
+              left: 109px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_dt1 {
+              position: absolute;
+              top: 234px;
+              left: 110px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds4 {
+              position: absolute;
+              top: 130px;
+              left: 193px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds4 {
+              position: absolute;
+              top: 234px;
+              left: 191px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds6 {
+              position: absolute;
+              top: 130px;
+              left: 466px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds6 {
+              position: absolute;
+              top: 234px;
+              left: 462px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_dt2 {
+              position: absolute;
+              top: 130px;
+              left: 641px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_dt2 {
+              position: absolute;
+              top: 234px;
+              left: 638px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_ds8 {
+              position: absolute;
+              top: 130px;
+              left: 795px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_ds8 {
+              position: absolute;
+              top: 234px;
+              left: 793px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_right_ps7 {
+              position: absolute;
+              top: -5px;
+              right: 194px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .defect_right_ps7 {
+                position: absolute;
+                top: 96px;
+                right: 195px;
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .bottom-right_pt2 {
+              position: absolute;
+              bottom: 108px;
+              right: 125px;
+              color: black;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .check_bright1 {
+              position: absolute;
+              bottom: 130px;
+              right: 137px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .defect_bright1 {
+              position: absolute;
+              bottom: 25px;
+              right: 136px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .check_bright_ps8 {
+            position: absolute;
+            bottom: 130px;
+            right: 54px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_bright_ps8 {
+            position: absolute;
+            bottom: 25px;
+            right: 56px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+          .bottom-left_pt1 {
+            position: absolute;
+            bottom: 108px;
+            left: 219px;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_bottom_pt11 {
+            position: absolute;
+            bottom: 130px;
+            left: 203px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_bottom_pt11 {
+            position: absolute;
+            bottom: 25px;
+            left: 204px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .bottom-left_pt11 {
+            position: absolute;
+            bottom: 108px;
+            left: 139px;
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_bottom_pt1 {
+            position: absolute;
+            bottom: 130px;
+            left: 129px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_bottom_pt1 {
+           position: absolute;
+           bottom: 25px;
+           left: 128px;
+           color: white;
+           font-size: 25px;
+           font-weight: bold;
+        }
+
+        .check_bottom_ps4 {
+            position: absolute;
+            bottom: 130px;
+            left: 284px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_bottom_ps4 {
+            position: absolute;
+            bottom: 25px;
+            left: 283px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_bottom_ps6 {
+            position: absolute;
+            bottom: 130px;
+            left: 461px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_bottom_ps6 {
+            position: absolute;
+            bottom: 25px;
+            left: 460px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_left_ps3 {
+            position: absolute;
+            top: -5px;
+            left: 284px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .defect_left_ps3 {
+            position: absolute;
+            top: 96px;
+            left: 284px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .check_left_ps5 {
+            position: absolute;
+            top: -5px;
+            left: 461px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .defect_left_ps5 {
+            position: absolute;
+            top: 96px;
+            left: 461px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .top-left_rfs {
+            position: absolute;
+            top: 89px;
+            left: 137px;
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .check_right_rf7 {
+            position: absolute;
+            top: -5px;
+            right: 270px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .defect_right_rf7 {
+            position: absolute;
+            top: 96px;
+            right: 272px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .check_bright_rf8 {
+              position: absolute;
+              bottom: 130px;
+              right: 271px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .defect_bright_rf8 {
+              position: absolute;
+              bottom: 25px;
+              right: 272px;
+              color: white;
+              font-size: 25px;
+              font-weight: bold;
+          }
+
+          .check_left_rf3 {
+              position: absolute;
+              top: -5px;
+              left: 331px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_rf3 {
+              position: absolute;
+              top: 96px;
+              left: 331px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_left_rf5 {
+              position: absolute;
+              top: -5px;
+              left: 615px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .defect_left_rf5 {
+              position: absolute;
+              top: 96px;
+              left: 615px;
+              color: white;
+              font-weight: bold;
+              font-size: 25px;
+          }
+
+          .check_bottom_rf4 {
+            position: absolute;
+            bottom: 130px;
+            left: 330px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+          .defect_bottom_rf4 {
+            position: absolute;
+            bottom: 22px;
+            left: 330px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+          .check_bottom_rf6 {
+            position: absolute;
+            bottom: 130px;
+            left: 615px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+         .defect_bottom_rf6 {
+            position: absolute;
+            bottom: 22px;
+            left: 615px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+          }
+
+          .check_left_rfs {
+            position: absolute;
+            top: 76px;
+            left: 113px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .defect_left_rfs {
+            position: absolute;
+            top: 150px;
+            left: 113px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+          }
+
+          .buttons {
+            position: relative;
+            bottom: 258px;
+            left: 120px;
+          }
+
+          .buttons1 {
+            position: relative;
+            bottom: 258px;
+            left: 291px;
+          }
+
+          .buttons2 {
+            position: relative;
+            bottom: 200px;
+            left: 200px;
+          }
+
+          .buttons3 {
+            position: relative;
+            bottom: 258px;
+            left: 323px;
+          }
+          .buttons4 {
+            position: relative;
+            bottom: 258px;
+            left: 372px;
+          }
+
+          .buttons5 {
+            position: relative;
+            bottom: 258px;
+            left: 394px;
+          }
+
+          .buttons6 {
+            position: relative;
+            bottom: 200px;
+            left: 295px;
+          }
+
+          .buttons7 {
+            position: relative;
+            bottom: 200px;
+            left: 326px;
+          }
+
+          .buttons8 {
+            position: relative;
+            bottom: 200px;
+            left: 372px;
+          }
+
+          .check_left_bh {
+            position: absolute;
+            top: -59px;
+            left: -13px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+         }
+
+/*ipad pro Portrait */
+@media only screen and (min-width: 824px) and (max-width: 1112px) and (orientation: portrait) 
+{
+  .front_img {
+    border-radius: 3px;
+    width: 100%;
+    height: 200px !important;
+  }
+  .check_left {
+    left: 17px !important;
+}
+.defect_left {
+    top: 68px !important;
+    left: 17px !important;  
+}
+.check_bottom {
+    bottom: 96px !important;
+    left: 17px !important;
+}
+.defect_bottom {
+    left: 17px !important;
+}
+  .check_right {
+      position: absolute;
+      top: -5px;
+      right: 44px !important;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .defect_right {
+    position: absolute;
+    top: 66px;
+    right: 44px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .check_bright {
+    position: absolute;
+    bottom: 96px;
+    right: 44px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .defect_bright {
+    position: absolute;
+    bottom: 22px;
+    right: 44px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .check_left_ds3 {
+    position: absolute;
+    top: -5px;
+    left: 156px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .defect_left_ds3 {
+    position: absolute;
+    top: 68px;
+    left: 156px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .check_left_ds7 {
+    position: absolute;
+    top: -5px;
+    left: 386px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .defect_left_ds7 {
+    position: absolute;
+    top: 69px;
+    left: 386px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .check_left_ds5 {
+    position: absolute;
+    top: -5px;
+    left: 282px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .defect_left_ds5 {
+    position: absolute;
+    top: 69px;
+    left: 282px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .top-left_ds {
+    position: absolute;
+    top: 22px;
+    left: 71px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .top-left1 {
+    position: absolute;
+    top: 22px;
+    left: 309px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .top-right1 {
+    position: absolute;
+    top: 22px;
+    right: 309px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_ds2 {
+    top: 92px !important;
+    left: 17px !important;
+}
+ .top-right_ds {
+    position: absolute;
+    top: 22px !important;
+    right: 76px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .defect_left_ds2 {
+    top: 166px !important;
+    left: 17px !important;
+}
+.bottom-left_dt1 {
+    bottom: 80px !important;
+}
+ .bottom-left_ds {
+    position: absolute;
+    bottom: 53px;
+    left: 21px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_dt1 {
+    position: absolute;
+    top: 94px;
+    left: 70px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .bottom-left_dt1 {
+    position: absolute;
+    bottom: 115px;
+    left: 74px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .defect_left_dt1 {
+    position: absolute;
+    top: 167px;
+    left: 70px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_ds4 {
+    position: absolute;
+    top: 94px;
+    left: 120px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ds4 {
+    position: absolute;
+    top: 167px;
+    left: 120px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .bottom-left1 {
+    position: absolute;
+    bottom: 53px;
+    left: 167px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_ds8 {
+    position: absolute;
+    top: 94px;
+    left: 479px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ds8 {
+    position: absolute;
+    top: 167px;
+    left: 479px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_dt3 {
+    position: absolute;
+    top: 94px;
+    left: 435px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_dt3 {
+    position: absolute;
+    top: 167px;
+    left: 435px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_dt2 {
+    position: absolute;
+    top: 94px;
+    left: 386px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_dt2 {
+    position: absolute;
+    top: 167px;
+    left: 386px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_ds6 {
+    position: absolute;
+    top: 94px;
+    left: 282px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ds6 {
+    position: absolute;
+    top: 167px;
+    left: 282px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .bottom-right3 {
+    position: absolute;
+    bottom: 53px;
+    right: 204px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-right_dt2 {
+    position: absolute;
+    bottom: 83px !important;
+    right: 128px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .bottom-right_dt3 {
+    position: absolute;
+    bottom: 83px !important;
+    right: 81px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .defect_bottom {
+    bottom: 22px !important;
+}
+ .bottom-right_ds {
+    position: absolute;
+    bottom: 53px;
+    right: 20px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_ps3 {
+    position: absolute;
+    top: -5px;
+    left: 173px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ps3 {
+    position: absolute;
+    top: 69px;
+    left: 173px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_ps5 {
+    position: absolute;
+    top: -5px;
+    left: 279px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ps5 {
+    position: absolute;
+    top: 69px;
+    left: 279px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_right_ps7 {
+    position: absolute;
+    top: -5px;
+    right: 103px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_right_ps7 {
+    position: absolute;
+    top: 69px;
+    right: 103px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bottom_ps4 {
+    position: absolute;
+    bottom: 94px;
+    left: 173px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_ps4 {
+    position: absolute;
+    bottom: 22px;
+    left: 173px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bottom_pt11 {
+    position: absolute;
+    bottom: 94px;
+    left: 127px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_pt11 {
+    position: absolute;
+    bottom: 22px;
+    left: 127px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bottom_pt1 {
+    position: absolute;
+    bottom: 94px;
+    left: 79px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_pt1 {
+    position: absolute;
+    bottom: 22px;
+    left: 79px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .bottom-left3 {
+    position: absolute;
+    bottom: 66px;
+    left: 204px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-left_pt1 {
+    position: absolute;
+    bottom: 83px;
+    left: 130px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .bottom-left_pt11 {
+    position: absolute;
+    bottom: 83px;
+    left: 83px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .check_bright1 {
+    position: absolute;
+    bottom: 94px;
+    right: 68px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bright1 {
+    position: absolute;
+    bottom: 22px;
+    right: 68px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bottom_ps6 {
+    position: absolute;
+    bottom: 94px;
+    left: 279px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_ps6 {
+    position: absolute;
+    bottom: 22px;
+    left: 279px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .bottom-right1 {
+    position: absolute;
+    bottom: 67px;
+    right: 173px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_bright_ps8 {
+    position: absolute;
+    bottom: 94px;
+    right: 19px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bright_ps8 {
+    position: absolute;
+    bottom: 22px;
+    right: 19px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .bottom-right_pt2 {
+    position: absolute;
+    bottom: 83px;
+    right: 75px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .top-left_rf {
+    position: absolute;
+    top: 20px;
+    left: 81px !important;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .bottom-left_rf {
+    position: absolute;
+    bottom: 46px;
+    left: 81px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_rf3 {
+    position: absolute;
+    top: -5px;
+    left: 203px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_rf3 {
+    position: absolute;
+    top: 69px;
+    left: 203px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .top-left2 {
+    /* position: absolute; */
+    top: 20px;
+    left: 269px !important;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .check_bottom_rf4 {
+    position: absolute;
+    bottom: 94px;
+    left: 203px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_rf4 {
+    position: absolute;
+    bottom: 22px;
+    left: 203px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_left_rfs {
+    position: absolute;
+    top: 55px;
+    left: 75px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_rfs {
+    position: absolute;
+    top: 100px;
+    left: 75px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .top-left_rfs {
+    position: absolute;
+    top: 60px;
+    left: 105px !important;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .bottom-left2 {
+    position: absolute;
+    bottom: 45px;
+    left: 269px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .top-right2 {
+    position: absolute;
+    top: 20px;
+    right: 262px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-right2 {
+    position: absolute;
+    bottom: 45px;
+    right: 269px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .top-right_rf {
+    position: absolute;
+    top: 20px;
+    right: 84px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-right_rf {
+    position: absolute;
+    bottom: 45px;
+    right: 85px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .check_left_rf5 {
+    position: absolute;
+    top: -5px;
+    left: 375px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_rf5 {
+    position: absolute;
+    top: 69px;
+    left: 375px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_right_rf7 {
+    position: absolute;
+    top: -5px;
+    right: 150px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .buttons {
+    position: relative;
+    bottom: 200px !important;
+    left: 70px;
+}
+ .defect_right_rf7 {
+    position: absolute;
+    top: 69px;
+    right: 150px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bottom_rf6 {
+    position: absolute;
+    bottom: 94px;
+    left: 375px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bottom_rf6 {
+    position: absolute;
+    bottom: 22px;
+    left: 375px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_bright_rf8 {
+    position: absolute;
+    bottom: 94px;
+    right: 150px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .defect_bright_rf8 {
+    position: absolute;
+    bottom: 25px;
+    right: 150px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .top-left {
+    position: absolute;
+    top: 27px;
+    left: 18px !important;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .top-right {
+    position: absolute;
+    top: 27px;
+    right: 18px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-left {
+    position: absolute;
+    bottom: 53px;
+    left: 18px !important;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .bottom-right {
+    position: absolute;
+    bottom: 53px;
+    right: 18px !important;
+    color: black;
+    font-size: 30px;
+ }
+ .note {
+    font-size: 10px;
+}
+.buttons2 {
+    left: 145px !important;
+}
+.rear {
+  width: 112px !important;
+}
+.front {
+  width: 112px !important;
+}
+}
+/*ipad pro Portrait */
+
+/*ipad pro Landscape */
+@media only screen and (min-width: 824px) and (max-height: 1112px) and (orientation: landscape) 
+{
+   .front_img {
+    border-radius: 3px;
+    width: 100%;
+    height: 200px !important;
+  }
+  .buttons {
+    position: relative;
+    bottom: 200px !important;
+    left: 76px;
+  }
+  .buttons2 {
+    left: 145px !important;
+}
+  .check_bottom {
+    bottom: 94px !important;
+    left: 17px !important;
+}
+.check_left {
+    left: 16px !important;
+}
+.top-left {
+    top: 28px !important;
+}
+.defect_left {
+    top: 69px !important;
+    left: 17px !important;
+}
+.top-right {
+    top: 28px !important;
+}
+.defect_bottom {
+    bottom: 22px !important;
+    left: 17px !important;
+}
+.bottom-left {
+    bottom: 59px !important; 
+}
+.top-left_ds {
+    top: 25px !important;
+    left: 82px !important;
+}
+.check_left_ds2 {
+    top: 94px !important;
+    left: 17px !important;
+}
+.bottom-left_ds {
+    bottom: 59px !important;
+}
+.bottom-right {
+    bottom: 59px !important;
+}
+.defect_left_ds2 {
+    top: 167px !important;
+    left: 17px !important;
+}
+  .check_right {
+    position: absolute;
+    top: -5px;
+    right: 50px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .defect_right {
+    position: absolute;
+    top: 69px;
+    right: 50px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .check_bright {
+    position: absolute;
+    bottom: 94px;
+    right: 50px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .defect_bright {
+    position: absolute;
+    bottom: 22px;
+    right: 50px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .check_left_ds3 {
+    position: absolute;
+    top: -5px;
+    left: 170px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .defect_left_ds3 {
+    position: absolute;
+    top: 69px;
+    left: 170px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .top-left1 {
+    position: absolute;
+    top: 28px;
+    left: 342px !important;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .top-right1 {
+    position: absolute;
+    top: 28px;
+    right: 353px !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .check_left_ds5 {
+    position: absolute;
+    top: -5px;
+    left: 309px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ds5 {
+    position: absolute;
+    top: 69px;
+    left: 309px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_ds7 {
+    position: absolute;
+    top: -5px;
+    left: 425px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .defect_left_ds7 {
+    position: absolute;
+    top: 69px;
+    left: 425px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .check_left_dt1 {
+    position: absolute;
+    top: 94px;
+    left: 75px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_dt1 {
+    position: absolute;
+    top: 167px;
+    left: 75px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-left_dt1 {
+    position: absolute;
+    bottom: 83px !important;
+    left: 79px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check_left_ds4 {
+    position: absolute;
+    top: 94px;
+    left: 131px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_ds4 {
+    position: absolute;
+    top: 167px;
+    left: 131px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-left1 {
+    position: absolute;
+    bottom: 59px;
+    left: 189px !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-right3 {
+    position: absolute;
+    bottom: 59px;
+    right: 230px !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_left_ds6 {
+    position: absolute;
+    top: 94px;
+    left: 309px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_ds6 {
+    position: absolute;
+    top: 167px;
+    left: 309px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-right_dt2 {
+    position: absolute;
+    bottom: 83px !important;
+    right: 139px!important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-right_dt3 {
+    position: absolute;
+    bottom: 83px !important;
+    right: 91px!important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check_left_dt2 {
+    position: absolute;
+    top: 94px;
+    left: 423px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_dt2 {
+    position: absolute;
+    top: 167px;
+    left: 423px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_left_dt3 {
+    position: absolute;
+    top: 94px;
+    left: 475px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bottom-right_ds {
+    bottom: 59px !important;
+}
+.defect_left_dt3 {
+    position: absolute;
+    top: 167px;
+    left: 475px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_left_ds8 {
+    position: absolute;
+    top: 94px;
+    left: 526px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_ds8 {
+    position: absolute;
+    top: 167px;
+    left: 526px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_left_ps3 {
+    position: absolute;
+    top: -5px;
+    left: 191px!important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_ps3 {
+    position: absolute;
+    top: 69px;
+    left: 191px!important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_left_ps5 {
+    position: absolute;
+    top: -5px;
+    left: 444px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_ps5 {
+    position: absolute;
+    top: 69px;
+    left: 444px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_right_ps7 {
+    position: absolute;
+    top: -5px;
+    right: 253px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_right_ps7 {
+    position: absolute;
+    top: 69px;
+    right: 253px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-right_ds {
+    position: absolute;
+    top: 33px;
+    right: 75px!important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bottom_pt1 {
+    position: absolute;
+    bottom: 94px;
+    left: 88px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_pt1 {
+    position: absolute;
+    bottom: 22px;
+    left: 88px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-left_pt11 {
+    position: absolute;
+    bottom: 83px !important;
+    left: 96px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-left_pt1 {
+    position: absolute;
+    bottom: 83px !important;
+    left: 143px!important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check_bottom_pt11 {
+    position: absolute;
+    bottom: 94px;
+    left: 139px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_pt11 {
+    position: absolute;
+    bottom: 22px;
+    left: 139px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bottom_ps4 {
+    position: absolute;
+    bottom: 94px;
+    left: 189px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_ps4 {
+    position: absolute;
+    bottom: 25px;
+    left: 189px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-left3 {
+    position: absolute;
+    bottom: 61px;
+    left: 219px !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-right1 {
+    position: absolute;
+    bottom: 61px;
+    right: 189px !important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bottom_ps6 {
+    position: absolute;
+    bottom: 94px;
+    left: 306px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_ps6 {
+    position: absolute;
+    bottom: 22px;
+    left: 306px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bright1 {
+    position: absolute;
+    bottom: 94px;
+    right: 77px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bright1 {
+    position: absolute;
+    bottom: 22px;
+    right: 77px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-right_pt2 {
+    position: absolute;
+    bottom: 83px;
+    right: 84px !important;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top-left_rf {
+    top: 20px !important;
+    left: 97px !important;
+}
+.bottom-left_rf {
+    bottom: 48px !important;
+    left: 97px !important;
+}
+.check_bright_ps8 {
+    position: absolute;
+    bottom: 94px;
+    right: 24px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_left_rfs {
+    top: 53px !important;
+    left: 102px !important;
+}
+.defect_left_rfs {
+    top: 104px !important;
+    left: 101px !important;
+}
+.defect_bright_ps8 {
+    position: absolute;
+    bottom: 22px;
+    right: 24px !important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_left_rf3 {
+    position: absolute;
+    top: -5px;
+    left: 225px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.defect_left_rf3 {
+    position: absolute;
+    top: 69px;
+    left: 225px !important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.top-left2 {
+    position: absolute;
+    top: 24px!important;
+    left: 477px!important;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_left_rf5 {
+    position: absolute;
+    top: -5px;
+    left: 595px!important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.top-right2 {
+    position: absolute;
+    top: 24px!important;
+    right: 477px!important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_left_rf5 {
+    position: absolute;
+    top: 69px;
+    left: 595px!important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.check_right_rf7 {
+    position: absolute;
+    top: -5px;
+    right: 354px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_right_rf7 {
+    position: absolute;
+    top: 69px;
+    right: 354px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-right_rf {
+    position: absolute;
+    top: 24px!important;
+    right: 113px!important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bottom_rf4 {
+    position: absolute;
+    bottom: 94px;
+    left: 225px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_rf4 {
+    position: absolute;
+    bottom: 22px;
+    left: 225px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-left2 {
+    position: absolute;
+    bottom: 48px;
+    left: 298px!important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bottom_rf6 {
+    position: absolute;
+    bottom: 94px;
+    left: 411px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bottom_rf6 {
+    position: absolute;
+    bottom: 22px;
+    left: 411px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-right2 {
+    position: absolute;
+    bottom: 48px;
+    right: 298px!important;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.check_bright_rf8 {
+    position: absolute;
+    bottom: 94px;
+    right: 168px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.defect_bright_rf8 {
+    position: absolute;
+    bottom: 25px;
+    right: 168px!important;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bottom-right_rf {
+    bottom: 48px !important;
+    right: 108px !important;
+}
+.note {
+    font-size: 11px;
+}
+}       

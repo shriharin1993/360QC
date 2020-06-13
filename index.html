@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QC App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/login.css"> -->
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+    <script src="https://use.fontawesome.com/99347ac47f.js"></script>
+    <!-- Font Icons CSS-->
+    <link rel="stylesheet" href="https://file.myfontastic.com/da58YPMQ7U5HY8Rb6UxkNf/icons.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+    <!--Datatable css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
+    <style type="text/css">
+      .img {
+        width: 50px;
+        border-radius: 50px;
+        margin-left: -21px;
+        border: 2px solid;
+      }
+      .img1 {
+        width: 20%;
+        margin-left: -21px;
+      }
+      .quick {
+        text-align: center;
+        margin-top: 20px;
+        border: 2px solid #9b0c0c;
+        background: #9b0c0c;
+        color: white;
+      }
+      .toolbar {
+          text-align: center;
+          margin-top: 20px;
+          border: 2px solid #9b0c0c;
+          background: #9b0c0c;
+          color: white;
+          font-size: 20px;
+      }
+
+      .toolbar1 {
+          text-align: center;
+          margin-top: 20px;
+          border: 2px solid #9b0c0c;
+          background: #9b0c0c;
+          color: white;
+          font-size: 20px;
+      }
+      #quickqc_paginate {
+         margin-top: -30px;
+      }
+
+      #detailedqc_paginate {
+        margin-top: -30px;
+      }
+
+      .anchor {
+        color: white !important;
+      }
+      .icon_align {
+        margin-top: -6px;
+      }
+      .dataTables_scrollHead {
+        width: 100% !important;
+      }
+      .dataTables_scrollHeadInner {
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .dataTable  {
+        width: 100% !important;
+      }
+      .dataTables_scrollBody {
+        width: 100% !important;
+        border-bottom: 2px solid #9b0c0c;
+      }
+      div.dt-buttons {
+        position: relative;
+        float: right !important; 
+        margin-left: 9px;
+    }
+.dt-button {
+  color: white !important;
+  background-color: blue !important;
+  background-image: none !important;
+}
+      @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+          .img1 {
+            width: 45% !important;
+          }
+          .dataTables_scrollBody {
+            border-bottom: 2px solid #9b0c0c !important;
+          }
+    </style>
+  </head>
+  <body>
+    <div class="page home-page" style="position: inherit;">
+      <header class="header">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+              <!-- Navbar Header-->
+              <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                  <div class="row">
+                   <div class="col-md-6">
+                     <img src="img/user.png" alt="Logo" class="img">
+                     <h4 style="margin-top: -43px;margin-left: 39px;">Kevin Peterson <br/>
+                     <small>&nbsp;</small></h4>
+                   </div>
+                 </div>     
+                </a>
+              </div>
+              <img src="img/DC_Horizontal-Logo.png" class="img1" alt="DC Logo" />
+              <!-- Navbar Menu -->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+               <div class="pull-right">
+                <ul class="nav pull-right">
+                  <!-- <li><img src="img/Settings.png" alt="settings" width="30px"/></li>&nbsp;&nbsp;&nbsp; -->
+                  <!-- <li><i class="fa fa-bell" style="color:#fff;font-size: 30px;"></i></li> -->
+                   <a href="login.html"><li><img src="img/Logout.png" alt="logout" width="30px"/></i></li></a>
+                    </li>
+                </ul>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content d-flex align-items-stretch">
+        <nav class="side-navbar">
+          <ul class="list-unstyled">
+            <li class="active"><a href="index.html"><img src="img/Home_1.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Home</a></li>
+            <!-- <li><a href="quick_qc.html">
+            <img src="img/Quick-QC.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Quick QC</a></li>
+            <li><a href="#"><img src="img/Detailed-360.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Detailed QC</a></li> -->
+            <li><a href="#"><img src="img/Reports.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Reports</a></li>
+            <li><a href="#"><img src="img/History.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;History</a></li>
+            <li><a href="#"><img src="img/Admin.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Admin</a></li>
+          </ul>
+        </nav>
+        <div class="content-inner">
+          <header class="page-header">
+            <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-6">
+              <ol class="breadcrumb">
+                <a id="toggle-btn" href="#" class="fa-lg">
+              <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 30px;color: white;"></i>
+              <span></span><span></span><span></span>
+            </a>
+                <li><a href="index.html" class="anchor"><img src="img/Home_1.png" alt="home" width="20px" class="icon_align">&nbsp;&nbsp;Home</a></li>       
+              </ol>
+              </div>
+            <!--   <div class="col-md-6">
+                <input type="text" placeholder="Search" class="pull-right search" name="search">
+                <i class="fa fa-search searchIcon"></i>
+              </div> -->
+              </div>
+            </div>
+          </header>
+          <section class="dashboard-counts no-padding-bottom">
+          <div class="container-fluid">
+              <div class="card"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <h2 style="color: #9b0c0c;">My Queue</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="background-color: #e3e3e3;">             
+              <div class="col-md-12">
+              <h2 class="quick">Quick QC</h2>
+              <div class="table-responsive">
+              <table id="quickqc" class="table table-bordered" style="width:100%;border: 2px solid #9b0c0c;">
+                    <thead>
+                        <tr style="color: black;font-size: 16px;">
+                            <th>Coach Name</th>
+                            <th>EDD</th>
+                            <th>EDT</th>
+                            <th>#LOT</th>
+                            <th>#SPACE</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: white;font-size: 18px;">
+                        <tr>
+                            <td><a href="quick_qc.html">Black Pearl</a></td>
+                            <td>01-18-2019</td>
+                            <td>09:00 AM</td>
+                            <td>01</td>
+                            <td>02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Ritz</a></td>
+                            <td>01-18-2019</td>
+                            <td>10:00 AM</td>
+                            <td>03</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Storm</a></td>
+                            <td>01-18-2019</td>
+                            <td>08:00 AM</td>
+                            <td>01</td>
+                            <td>04</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Black dog</a></td>
+                            <td>01-18-2019</td>
+                            <td>07:00 AM</td>
+                            <td>02</td>
+                            <td>02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Blade</a></td>
+                            <td>01-18-2019</td>
+                            <td>06:00 AM</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                      </tbody>
+                      </table>
+              </div>
+            </div><br/>
+
+            <div class="col-md-12">
+              <!-- <h2 class="quick">Detailed QC</h2> -->
+              <div class="table-responsive">
+              <table id="detailedqc" class="table table-bordered" style="width:100%;border: 2px solid #9b0c0c;">
+                    <thead>
+                        <tr style="color: black;font-size: 16px;">
+                            <th>Coach Name</th>
+                            <th>EDD</th>
+                            <th>EDT</th>
+                            <th>#LOT</th>
+                            <th>#SPACE</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: white;font-size: 18px;">
+                        <tr>
+                            <td><a href="detailed_qc.html">Black Pearl</a></td>
+                            <td>01-18-2019</td>
+                            <td>09:00 AM</td>
+                            <td>01</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Ritz</a></td>
+                            <td>01-18-2019</td>
+                            <td>10:00 AM</td>
+                            <td>02</td>
+                            <td>02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Storm</a></td>
+                            <td>01-18-2019</td>
+                            <td>08:00 AM</td>
+                            <td>01</td>
+                            <td>02</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Black dog</a></td>
+                            <td>01-18-2019</td>
+                            <td>07:00 AM</td>
+                            <td>02</td>
+                            <td>01</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Vibe</a></td>
+                            <td>01-18-2019</td>
+                            <td>09:00 AM</td>
+                            <td>02</td>
+                            <td>03</td>
+                        </tr>
+                      </tbody>
+                      </table>
+              </div>
+            </div>
+            </div>
+            </div>
+         </section>
+  </div>
+</div>
+
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <!--Javascript Datatable-->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      var table = $('#quickqc').DataTable({
+        dom: 'Bfrltip',
+        // "lengthChange": false,
+        // "searching": false,
+        // "paging": false,
+        // "info": false,
+        // "ordering":  true,
+        scrollY: "200px",
+        buttons: [
+            {
+                text: 'Clear',
+                attr: {
+                  color:'blue'
+                },
+                action: function ( e, dt, node, config ) {
+                     dt.search('').draw();                
+                }
+            }
+        ]
+       }); 
+        $("div.toolbar").html('<b class="toolbar">Quick QC</b>');
+       });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+       $('#detailedqc').DataTable({
+        "dom": '<"toolbar1">rtip',
+        // "lengthChange": false,
+        // "searching": false,
+        // "paging": false,
+        // "info": false,
+        // "ordering":  true,
+        "scrollY": "200px"
+       });
+       $("div.toolbar1").html('<b class="toolbar1">Detailed QC</b>');
+       });
+    </script>
+  </body>
+</html>

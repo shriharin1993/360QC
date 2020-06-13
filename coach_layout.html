@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QC App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/coach_layout.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/login.css"> -->
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+    <script src="https://use.fontawesome.com/99347ac47f.js"></script>
+    <!-- Font Icons CSS-->
+    <link rel="stylesheet" href="https://file.myfontastic.com/da58YPMQ7U5HY8Rb6UxkNf/icons.css">
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/> -->
+  </head>
+  <body>
+    <div class="page home-page" style="position: inherit;">
+      <header class="header">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+              <!-- Navbar Header-->
+              <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                  <div class="row">
+                   <div class="col-md-6">
+                     <img src="img/user.png" alt="Logo" class="img">
+                     <h4 style="margin-top: -43px;margin-left: 39px;">Kevin Peterson <br/>
+                     <small>&nbsp;</small></h4>
+                   </div>
+                 </div>     
+                </a>
+              </div>
+              <img src="img/DC_Horizontal-Logo.png" class="img1" alt="DC Logo" />
+              <!-- Navbar Menu -->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+               <div class="pull-right">
+                <ul class="nav pull-right">
+                  <!-- <li><img src="img/Settings.png" alt="settings" width="30px"/></li>&nbsp;&nbsp;&nbsp; -->
+                  <!-- <li><i class="fa fa-bell" style="color:#fff;font-size: 30px;"></i></li> -->
+                   <a href="login.html"><li><img src="img/Logout.png" alt="logout" width="30px"/></i></li></a>
+                    </li>
+                </ul>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content d-flex align-items-stretch">
+        <nav class="side-navbar">
+          <ul class="list-unstyled">
+            <li class="active"><a href="index.html"><img src="img/Home_1.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Home</a></li>
+            <!-- <li class="active"><a href="quick_qc.html">
+            <img src="img/Quick-QC.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Quick QC</a></li>
+            <li><a href="#"><img src="img/Detailed-360.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Detailed QC</a></li> -->
+            <li><a href="#"><img src="img/Reports.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Reports</a></li>
+            <li><a href="#"><img src="img/History.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;History</a></li>
+            <li><a href="#"><img src="img/Admin.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Admin</a></li>
+          </ul>
+        </nav>
+        <div class="content-inner">
+          <header class="page-header">
+            <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-6">
+              <ol class="breadcrumb">
+                <a id="toggle-btn" href="#" class="fa-lg">
+              <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 30px;color: white;"></i>
+              <span></span><span></span><span></span>
+            </a>
+                <li><a href="index.html" class="anchor"><img src="img/Home_1.png" alt="home" width="20px" class="icon_align">&nbsp;&nbsp;Home</a></li>
+                <li><a href="#"class="anchor">Quick QC - Black Pearl</a></li>  
+                <li><a href="#"class="anchor">Coach Layout</a></li>    
+              </ol>
+              </div>
+            <!--   <div class="col-md-6">
+                <input type="text" placeholder="Search" class="pull-right search" name="search">
+                <i class="fa fa-search searchIcon"></i>
+              </div> -->
+              </div>
+            </div>
+          </header>
+          <section class="dashboard-counts no-padding-bottom">
+          <div class="container-fluid">
+              <div class="card"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h2 style="color: #9b0c0c;">Exterior Layout - Black Pearl </h2>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="pull-right">
+                    <h2 style="color: #9b0c0c;">18-01-2019 09:00 AM</h2>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card" style="background-color: lightgrey;"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <div class="col-md-4">
+                    <button type="button" class="btn btn-primary go_back" style="width: 141px;float:left;"><a href="coach_layout.html" class="anchor">
+                      <i class="fa fa-caret-square-o-left" aria-hidden="true"></i>&nbsp;&nbsp;Go Back</a></button>
+                    </div>
+                    <div class="col-md-4">
+                    <button type="button" class="btn btn-primary" style="width: 141px;margin-left: 94px;"><a href="#" class="anchor">
+                    <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;Overall</a></button>
+                    </div>
+                    <div class="col-md-4">
+                    <button type="button" class="btn btn-primary" style="width: 143px;float: right;"><a href="#" class="anchor">
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;&nbsp;Submit Report</a></button>
+                    </div>            
+                    </div>
+                  </div>
+                </div>
+
+              <div class="card" style="background-color: #e3e3e3;">
+              <!--Div 1 -->
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/Bus-02-05.jpg" alt="Bus-Front" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left">
+                    F1
+                    </div>
+                  </a>
+                  <div class="check_left">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <!-- <div class="times_left">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="coach_layout_F2.html" class="anchor">
+                    <div class="top-right">
+                    F2
+                    </div>
+                  </a>
+                  <div class="check_right">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_right">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_right">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left">
+                    F3
+                    </div>
+                  </a>
+                  <div class="check_bottom">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_bottom">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_bottom">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right">
+                    F4
+                    </div>
+                  </a>
+                  <div class="check_bright">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_bright">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_bright">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                  <div class="note bus_front"><p>Click on the grids to see the details</p></div>
+                </div>
+                <div class="col-md-9">
+                  <img src="img/Bus-02-01.jpg" alt="Driver-Side" width="100%" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left_ds">
+                    DS1
+                    </div>
+                  </a>
+                  <div class="check_left">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <!-- <div class="times_left1">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-left1">
+                    DS3
+                    </div>
+                  </a>
+                  <div class="check_left_ds3">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <!-- <div class="times_left_ds3">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left_ds3">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                
+                  <a href="index.html" class="anchor">
+                    <div class="top-right1">
+                    DS5
+                    </div>
+                  </a>
+                  <div class="check_left_ds5">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <!-- <div class="times_left_ds5">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left_ds5">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right_ds">
+                    DS7
+                    </div>
+                  </a>
+                  <div class="check_left_ds7">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <!-- <div class="times_left_ds7">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left_ds7">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left_ds">
+                    DS2
+                    </div>
+                 </a>
+                 <div class="check_left_ds2">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_ds2">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+
+                 <a href="index.html" class="anchor">
+                    <div class="bottom-left_dt1">
+                    DST1
+                    </div>
+                 </a>
+                 <div class="check_left_dt1">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_dt1">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+            
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left1">
+                    DS4
+                   </div>
+                  </a>
+                  <div class="check_left_ds4">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_ds4">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right3">
+                    DS6
+                    </div>
+                  </a>
+                  <div class="check_left_ds6">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_ds6">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right_dt2">
+                    DST2
+                    </div>
+                  </a>
+                  <div class="check_left_dt2">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_dt2">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+
+                 <a href="index.html" class="anchor">
+                    <div class="bottom-right_dt3">
+                    DST3
+                    </div>
+                  </a>
+                  <div class="check_left_dt3">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                 </div>
+                 <div class="defect_left_dt3">
+                    <img src="img/H.png" alt="right" width="40%">
+                 </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right_ds">
+                    DS8
+                    </div>
+                  </a>
+                  <div class="check_left_ds8">
+                    <a href="coach_layout_F2.html" class="anchor"><img src="img/right.png" alt="right" width="40%"></a>
+                  </div>
+                  <div class="defect_left_ds8">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <div class="note"><p>Click on the grids to see the details</p></div>
+                </div>
+              </div>
+              <!--Div 1 -->
+
+              <!--Div 2 -->
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="img/Bus-02-06.jpg" alt="Bus-Front" width="100%" height="93%" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left">
+                    R1
+                    </div>
+                  </a>
+                  <div class="check_left">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_left">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right">
+                    R2
+                    </div>
+                  </a>
+                  <div class="check_right">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_right">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_right">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left">
+                    R3
+                    </div>
+                  </a>
+                  <div class="check_bottom">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <!-- <div class="times_bottom">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_bottom">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right">
+                    R4 
+                    </div>
+                  </a>
+                  <div class="check_bright">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                 <!--  <div class="times_bright">
+                    <img src="img/wrong.png" alt="right" width="40%">
+                  </div> -->
+                  <div class="defect_bright">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                  <div class="note bus_front"><p>Click on the grids to see the details</p></div>
+                </div>
+                <div class="col-md-9">
+                  <img src="img/Bus-02-02.jpg" alt="Passenger-Side" width="100%" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left_ds">
+                    PS1
+                    </div>
+                  </a>
+                  <div class="check_left">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-left1">
+                    PS3
+                    </div>
+                  </a>
+                  <div class="check_left_ps3">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left_ps3">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right1">
+                    PS5
+                    </div>
+                  </a>
+                  <div class="check_left_ps5">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left_ps5">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right_ds">
+                    PS7
+                    </div>
+                  </a>
+                  <div class="check_right_ps7">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_right_ps7">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left_ds">
+                    PS2
+                    </div>
+                  </a>
+                  <div class="check_bottom">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left_pt1">
+                    PST2
+                    </div>
+                  </a>
+                  <div class="check_bottom_pt11">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_pt11">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left_pt11">
+                    PST3
+                    </div>
+                  </a>
+                  <div class="check_bottom_pt1">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_pt1">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left3">
+                    PS4
+                    </div>
+                  </a>
+                  <div class="check_bottom_ps4">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_ps4">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right1">
+                    PS6
+                    </div>
+                  </a>
+                  <div class="check_bottom_ps6">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_ps6">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right_pt2">
+                    PST1
+                    </div>
+                  </a>
+                  <div class="check_bright1">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bright1">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right_ds">
+                    PS8
+                    </div>
+                  </a>
+                  <div class="check_bright_ps8">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bright_ps8">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+                  
+                  <div class="note"><p>Click on the grids to see the details</p></div>
+                </div>
+              </div>
+              <!--Div 2 -->
+
+              <!--Div 3 -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="img/Bus-02-03.jpg" alt="Bus-Roof" width="100%" class="front_img" />
+                  <a href="index.html" class="anchor">
+                    <div class="top-left_rf">
+                    RF1
+                    </div>
+                  </a>
+                  <div class="check_left">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-left_rfs">
+                    RFS1
+                    </div>
+                  </a>
+                  <div class="check_left_rfs">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left_rfs">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-left2">
+                    RF3
+                    </div>
+                  </a>
+                  <div class="check_left_rf3">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left_rf3">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right2">
+                    RF5
+                    </div>
+                  </a>
+                  <div class="check_left_rf5">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_left_rf5">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="top-right_rf">
+                    RF7
+                    </div>
+                  </a>
+                  <div class="check_right_rf7">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_right_rf7">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left_rf">
+                    RF2
+                    </div>
+                  </a>
+                  <div class="check_bottom">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-left2">
+                    RF4
+                    </div>
+                  </a>
+                  <div class="check_bottom_rf4">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_rf4">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right2">
+                    RF6
+                    </div>
+                  </a>
+                  <div class="check_bottom_rf6">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bottom_rf6">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <a href="index.html" class="anchor">
+                    <div class="bottom-right_rf">
+                    RF8
+                    </div>
+                  </a>
+                  <div class="check_bright_rf8">
+                    <img src="img/right.png" alt="right" width="40%">
+                  </div>
+                  <div class="defect_bright_rf8">
+                    <img src="img/H.png" alt="right" width="40%">
+                  </div>
+
+                  <div class="note"><p>Click on the grids to see the details</p></div>
+                </div>
+              </div>
+              <!--Div 3 -->
+              <div class="row">
+               <div class="col-md-12">
+                    <h2 style="color: white;background: #9b0c0c;padding: 6px 10px;">Interior Layout </h2>
+              </div>
+              </div>
+              <!--Div 4 -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="img/Bus-02-07.jpg" alt="Bus-Roof" width="100%" class="front_img" />
+                  <div class="note1">
+                    <p>Click on the grids to see the details</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+              <div class="col-md-2 buttons">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Bunk Hall</button>
+              </div>
+              <div class="col-md-2 buttons">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Entry</button>
+              </div>
+              <div class="col-md-2 buttons">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Rear Lounge</button>
+              </div>
+              <div class="col-md-2 buttons">
+              <button type="button" class="btn btn-primary front" style="width: 100%;">Front Lounge</button>
+              </div>
+              <div class="col-md-2 buttons">
+              <button type="button" class="btn btn-primary front" style="width: 100%;">Floor</button>
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-md-2 buttons2">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Galley
+              </button>
+              </div>
+              <div class="col-md-2 buttons2">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Ceiling</button>
+              </div>
+              <div class="col-md-2 buttons2">
+              <button type="button" class="btn btn-primary rear" style="width: 100%;">Driver's Area</button>
+              </div>
+              <div class="col-md-2 buttons2">
+              <button type="button" class="btn btn-primary front" style="width: 100%;">Bathroom</button>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+            </div>
+         </section>
+  </div>
+</div>
+
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css"> -->
+    <!--DateTimePicker CSS and JS-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <script type="text/javascript">
+      jQuery('#datetimepicker1').datetimepicker({
+       format: 'h:i a',
+       datepicker: false
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery('#datetimepicker').datetimepicker({
+       format: 'M-d-Y',
+       timepicker: false
+      });
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>360 QC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/login.css"> -->
+    <!-- Favicon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+    <script src="https://use.fontawesome.com/99347ac47f.js"></script>
+    <!-- Font Icons CSS-->
+    <link rel="stylesheet" href="https://file.myfontastic.com/da58YPMQ7U5HY8Rb6UxkNf/icons.css">
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/> -->
+    <style type="text/css">
+      .img {
+        width: 50px;
+        border-radius: 50px;
+        margin-left: -21px;
+        border: 2px solid;
+      }
+      .img1 {
+        width: 20%;
+        margin-left: -21px;
+      }
+      .search {
+        color: #0f0f0f;
+        line-height: 1.2;
+        display: block;
+        width: 100%;
+        height: 29px;
+        background: transparent;
+        padding: 0px 7px 0 0px;
+        border: none;
+        border-bottom: 2px solid #0f0f0f;
+        font-weight: bold;
+      }
+      .search1 {
+        color: #0f0f0f;
+        line-height: 1.2;
+        display: block;
+        width: 100%;
+        height: 29px;
+        background: transparent;
+        padding: 0px 7px 0 0px;
+        border: none;
+        border-bottom: 2px solid #9b0c0c;
+        font-weight: bold;
+      }
+      .anchor {
+        color: white !important;
+      }
+      .icon_align {
+        margin-top: -6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page home-page" style="position: inherit;">
+      <header class="header">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-holder d-flex align-items-center justify-content-between">
+              <!-- Navbar Header-->
+              <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                  <div class="row">
+                   <div class="col-md-6">
+                     <img src="img/user.png" alt="Logo" class="img">
+                     <h4 style="margin-top: -43px;margin-left: 39px;">Kevin Peterson <br/>
+                     <small>360</small></h4>
+                   </div>
+                 </div>     
+                </a>
+                <a id="toggle-btn" href="#" class="fa-lg"><img src="img/Collapse.png" alt="Collapse" width="30px" style="margin-left: 45px;" /><span></span><span></span><span></span>
+                </a>
+              </div>
+              <img src="img/DC_Horizontal-Logo.png" class="img1" alt="DC Logo" />
+              <!-- Navbar Menu -->
+              <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+               <div class="pull-right">
+                <ul class="nav pull-right">
+                  <li><img src="img/Settings.png" alt="settings" width="30px"/></li>&nbsp;&nbsp;&nbsp;
+                  <!-- <li><i class="fa fa-bell" style="color:#fff;font-size: 30px;"></i></li> -->
+                   <a href="login.html"><li><img src="img/Logout.png" alt="logout" width="30px"/></i></li></a>
+                    </li>
+                </ul>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="page-content d-flex align-items-stretch">
+        <nav class="side-navbar">
+          <ul class="list-unstyled">
+            <li><a href="index.html"><img src="img/Home_1.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Home</a></li>
+            <!-- <li class="active"><a href="quick_qc.html">
+            <img src="img/Quick-QC.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Quick QC</a></li>
+            <li><a href="#"><img src="img/Detailed-360.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;Detailed QC</a></li> -->
+            <li><a href="#"><img src="img/Reports.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Reports</a></li>
+            <li><a href="#"><img src="img/History.png" alt="admin" width="20px" class="icon_align"/>&nbsp;&nbsp;History</a></li>
+            <li><a href="#"><img src="img/Admin.png" alt="admin" width="20px" class="icon_align" />&nbsp;&nbsp;Admin</a></li>
+          </ul>
+        </nav>
+        <div class="content-inner">
+          <header class="page-header">
+            <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-6">
+              <ol class="breadcrumb">
+                <li><a href="index.html" class="anchor"><img src="img/Home_1.png" alt="home" width="20px" class="icon_align">&nbsp;&nbsp;Home</a></li>
+                <li><a href="#"class="anchor">Detailed QC</a></li>
+                <li><a href="#"class="anchor">Black Pearl</a></li>      
+              </ol>
+              </div>
+            <!--   <div class="col-md-6">
+                <input type="text" placeholder="Search" class="pull-right search" name="search">
+                <i class="fa fa-search searchIcon"></i>
+              </div> -->
+              </div>
+            </div>
+          </header>
+          <section class="dashboard-counts no-padding-bottom">
+            <div class="container-fluid">
+              <div class="card"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h2 style="color: #9b0c0c;">Detailed QC - Black Pearl </h2>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="pull-right">
+                    <h2 style="color: #9b0c0c;">16-01-2019 06:00 AM</h2>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="background-color: #e3e3e3;">
+              <div class="row">
+                <div class="col-md-4">
+                  <label class="control-label" for="econame">Eco Name</label>
+                  <input type="text" class="form-control search" id="eco_name" name="eco_name">
+                </div>
+                <div class="col-md-4">
+                  <label class="control-label" for="ecotl">Eco TL</label>
+                  <input type="text" class="form-control search" id="eco_name" name="eco_name">
+                </div>
+                <div class="col-md-4">
+                  <label class="control-label" for="date">Check In Date</label>
+                  <input type="text" class="form-control search" 
+                  id="checkin_date" name="checkin_date[]" value="">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <label class="control-label" for="time">Check In Time</label>
+                  <input type="text" class="form-control search" id="time" name="time[]" value="">
+                </div>
+                <div class="col-md-4">
+                  <label class="control-label" for="hours" style="color: #9b0c0c;">Generator Hours</label>
+                  <input type="text" class="form-control search1" id="hours" name="hours">
+                </div>
+                <div class="col-md-4">
+                  <label class="control-label" for="reading" style="color: #9b0c0c;">Odometer Reading</label>
+                  <input type="text" class="form-control search1" id="reading" name="reading">
+                </div>
+              </div><br/><br/><br/>
+             </div>
+            <div class="card"> 
+                <div class="col-md-12">     
+                  <div class="row">
+                    <div class="col-md-6">
+                    <button type="button" class="btn btn-primary" style="width: 150px;"><a href="index.html" class="anchor">
+                      <i class="fa fa-caret-square-o-left" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Go Back</a></button>
+                    </div>
+                    <div class="col-md-6">
+                    <button type="button" class="btn btn-primary pull-right" style="width: 150px;"><a href="coach_layout_detailed.html" class="anchor">
+                    <i class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Save and Start</a></button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </section>
+  </div>
+</div>
+
+    </div>
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css"> -->
+    <!--DateTimePicker CSS and JS-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+    <script type="text/javascript">
+      jQuery('#datetimepicker1').datetimepicker({
+       format: 'h:i a',
+       datepicker: false
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery('#datetimepicker').datetimepicker({
+       format: 'M-d-Y',
+       timepicker: false
+      });
+    </script> -->
+  </body>
+</html>
